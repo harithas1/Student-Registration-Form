@@ -1,0 +1,96 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(224, 224, 221); */
+    background: url(file:///home/jtd/Pictures/64-644121_bud-pink-tulips-flowers-pink-tulips-wallpaper-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    align-items: center !important;
+    align-items: stretch;
+}
+
+.container {
+    margin: 50px auto auto 30%;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 15cm;
+    width: 10cm;
+    border: 2px solid rgb(205, 38, 158);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(195, 79, 79, 0.547);
+}
+
+h2 {
+    margin: -5px auto 20px auto;
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+
+div {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid grey;
+    color: rgb(92, 4, 4);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    height: 1cm;
+    width: 2.5cm;
+    border-radius: 30px;
+    background-color: rgb(11, 120, 163);
+    color: antiquewhite;
+    margin-left: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1cm;
+}
+
+input[type="submit"]:hover {
+    background-color: antiquewhite;
+    color: rgb(11, 120, 163);
+}
+
+input[type="tel"]{
+    width: 90%;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid grey;
+    color: rgb(92, 4, 4);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+input[type="date"]{
+    background: transparent;
+    border: 1px solid grey;
+    padding: 5px;
+    width: 4cm;
+    border: 1px solid grey;
+    color: rgb(112, 110, 110);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px; 
+}
+
+#states, #cities {
+    background: transparent;
+    border: 1px solid grey;
+    padding: 5px;
+    width: 6cm;
+    border-radius: 5px; 
+    border: 1px solid grey;
+    font-weight: bold;
+    color: rgb(112, 110, 110);
+    font-size: 1rem;
+}
+
